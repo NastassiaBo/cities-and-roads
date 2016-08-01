@@ -1,0 +1,134 @@
+body{margin: 30px;
+padding: 0px 0px;
+background-color:#f2f2f2;
+}
+div{margin: 0px 0px;
+padding: 0px 0px;
+}
+.header{
+    text-align:center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position:relative;
+    top:-5px;
+    right:-70px;
+}
+.circles{
+    text-align:right;
+    display: inline-block;
+    width: 600px;
+    height: 310px;
+    position:fixed;
+    top:-25px;
+    right: -45px;
+    z-index: -1;
+}
+h{
+   font-family: 'Josefin Slab', serif;
+    font-size:3.75em;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.navbar{
+    width:80%;
+    height: auto;
+     margin: 5px auto;
+    display: block;
+    position: relative;
+    
+}
+ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center
+}
+li a {
+    display: inline-block;
+    text-align:right;
+    padding: 10px 8px;
+    text-decoration:none;
+    font-family: 'Open Sans Condensed', sans-serif;
+     text-transform: uppercase;
+    font-size:15px;
+    color:#404040;
+   float:right;
+}
+
+li a:hover, li a:active{
+    background-color:#cc3300;
+    text-decoration:underline;
+    
+}
+.banner {
+    text-align:center;
+}
+.cube{
+    height: 278px;
+    width: 278px;
+    text-align: center;
+  margin: 0 1em 1em 0;
+  position: relative;
+display: inline-block;
+    
+}
+
+ div h1{ 
+font-family: 'Josefin Slab', serif;
+font-size: 1.3em;
+text-align:center;
+text-decoration:none;
+;
+
+}
+h3{font-family: 'Open Sans Condensed', sans-serif;
+
+    
+}
+ div p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:1em;
+text-align:left;
+}
+.footer{
+    width: 100%;
+    height:30px;
+    margin: 10px;
+    padding:20px 0px;
+    position: relative;
+    bottom:-20px;
+    display: block;
+    text-align: center;
+    
+}
+#goto{width: 100%;
+    height:30px;
+    margin: 10px;
+    position: relative;
+    display: block;
+    
+}
+    span{text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #404040;
+}
+#goto span:hover, #goto span:active{
+    background-color:#cc3300;
+    text-decoration:underline;
+    
+}
+.social{width:25%;
+height:25%;
+    position:relative;
+    display:inline-block;
+    text-align: left;
+}
+.post{text-align:center;
+}
